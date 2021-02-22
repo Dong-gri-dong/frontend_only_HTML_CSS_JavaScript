@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 문서 제목, 문자코드(인코딩)와 같이 해당 문서 정보를 담고 있으며, 
+브라우저에 나타나지 않는다 CSS선언 혹은 외부로딩 파일지정 등도 작성 -->
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>TodoListCoding</title>
+</head>
+
+<!-- 브라우저 화면에 나타나는 정보로 **실제 내용**에 해당한다. -->
+<body>
+  <div class="todo-container">
+    <h1>Todo List</h1>
+    <hr>
+    <input id="addDate" type="date" value="xxx" min="yyy" max="zzz">
+    <input id="addText" type="text">
+    <button id="add-button">+</button>
+
+    <div class="todolist-container">
+      <ul id="todoList">
+      </ul>
+      
+    </div>
+
+
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
