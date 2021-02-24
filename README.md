@@ -16,3 +16,11 @@
 
 ![](./asset/2_lots.png)
 
+
+
+### 3. Lotto
+
+![](./asset/3_lotto.png)
+
+
+
