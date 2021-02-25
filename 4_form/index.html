@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <title>Form</title>
+</head>
+<body>
+  <form action="" class="form-container">
+    
+    <header>
+      <h1>회원 가입</h1>
+    </header>
+    <hr>
+    <div class="infomation-container">
+
+      <div class="email-container">
+        <label for="email" class="label-font">이메일 :</label>
+        <br>
+        <input id="email" class="write-input" type="email">
+      </div>
+      <br>
+
+      <div class="password-container">
+        <label for="password" class="label-font">비밀번호 :</label>
+        <input id="password" class="write-input" type="password">
+        <br>
+        <label for="passwordConfirm" class="label-font">비밀번호 확인 :</label>
+        <input id="passwordConfirm" class="write-input" type="password">
+      </div>
+      <br>
+
+      <div class="name-container">
+        <label for="writename" class="label-font">이름 :</label>
+        <input id="writename" class="write-input" type="text">
+      </div>
+      <br>
+
+      <div class="birth-container">
+        <label for="birth" class="label-font" >생년월일 :</label>
+        
+        <div style="margin: 0%; padding: 0%;">
+          
+          <span class="birth-span">
+            <input class="year-input" type="text" placeholder="년(4자)">
+          </span>
+          
+          <span class="birth-span">
+            <select class="month-input" name="" id="">
+              <option value="">월</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+              <option value="">8</option>
+              <option value="">9</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+            </select>
+          </span>
+          
+          <span class="birth-span">
+            <input class="day-input" type="text" placeholder="일">
+          </span>
+
+        </div>
+        
+      </div>
+      <br>
+
+      <div class="gender-container">
+        <label for="gender" class="label-font">성별 :</label>
+        
+        <div>
+          <select class="wirte-input" name="" id="">
+            <option value="">성별</option>
+            <option value="">남자</option>
+            <option value="">여자</option>
+            <option value="">선택안함</option>
+          </select>
+        </div>
+      </div>
+      <br>
+
+      <div class="phone-container">
+        <label for="phone" class="label-font">휴대전화 :</label>
+        <input id="phone" class="write-input" type="phone">
+      </div>
+      <br>
+
+
+      <button type="button" class="submit-button">가입하기</button>
+    </div>
+
+
+  </form>
+</body>
+</html>

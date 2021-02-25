@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  font-family: 'Do Hyeon', sans-serif;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+div {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.form-container {
+  text-align: center;
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  border: 1px solid black;
+  background-color: white;
+  
+}
+
+.infomation-container {
+  text-align: left;
+  width: 50%;
+  height: 70%;
+  padding: auto;
+  margin: auto;
+  padding: 0%;
+}
+
+.label-font {
+  font-weight: bold;
+}
+.write-input {
+  width: 100%;
+  margin: 0%;
+  padding: 0;
+  border: 0px;
+  box-shadow: 0px 0px 0px 1px black; 
+}
+
+.birth-container {
+  width: 100%;
+}
+.birth-span {
+  margin: 0%;
+  padding: 0%;
+}
+
+.year-input {
+  width: 25%;
+  height: 100%;
+  padding: 0%;
+  margin-right: 3%;
+  border: 0px;
+  box-shadow: 0px 0px 0px 1px black; 
+}
+
+.month-input {
+  width: 25%;
+  height: 100%;
+  padding: 0%;
+  margin-right: 3%;
+  border: 0px;
+  box-shadow: 0px 0px 0px 1px black; 
+}
+
+.day-input {
+  width: 25%;
+  padding: 0%;
+  height: 100%;
+  margin-right: 3%;
+  border: 0px;
+  box-shadow: 0px 0px 0px 1px black; 
+}
+/* .name-container { 
+  position: absolute;
+  height: 20%;
+  top: 20%;
+}
+.email-container {
+  position: absolute;
+} */
+
+.submit-button {
+  background-color: skyblue;
+  color: black;
+  font-family: 'Do Hyeon', sans-serif;
+  width: 100%;
+}
